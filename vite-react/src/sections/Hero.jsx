@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { PerspectiveCamera } from '@react-three/drei';
 import CanvasLoader from '../components/CanvasLoader.jsx';
 import { HackerRoom } from '../components/HackerRoom.jsx';
-import { Leva } from 'leva';
+ import { Leva } from 'leva';
 import { useControls } from 'leva';
 import { useMediaQuery } from 'react-responsive';
 import {calculateSizes} from '../constants/index.js';
@@ -53,7 +53,7 @@ const Hero = () => {
             <group>
               <Target position={sizes.targetPosition}/>
               <ReactLogo positon={sizes.ReactLogo}/>
-              <Cube position={sizes.cubePosition} />
+              {/* <Cube position={sizes.cubePosition} /> */}
               {/* <Rings postion={sizes.ringPosition} /> */}
               
             </group>
