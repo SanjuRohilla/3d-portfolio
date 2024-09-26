@@ -40,8 +40,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I am specialized in a javascript along with React and NextJs and many 3d frameworks
-                
+                I am specialized in javascript along with React.js and many 3d frameworks
               </p>
             </div>
           </div>
@@ -65,7 +64,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in India and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              {/* <Button name="Contact Me" isBeam containerClass="w-full mt-10" /> */}
             </div>
           </div>
         </div>

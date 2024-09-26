@@ -58,85 +58,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: '3-D Globe',
-      desc: 'This was my first project in which  I implemented three.js library and rendered a beautiful globe in between stars ',
-      subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/globe.mp4',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Avahan Website',
-      desc: 'Avahan is a website of Rajbhasha Committee Website , I am a Technical executive at Rajbhasha Committee',
-      subdesc:
-        'I built Team Page , Developers information section and about page with React.js and Tailwind CSS',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/Rajbhasha.mp4',
-      logo: '/assets/project-logo2.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
-      },
-      spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
       title: 'Technocracy - Website',
       desc: 'The Technocracy website is the offical website for NIT Raipur Technical Commitee , I am a Technical executive at this Committee',
       subdesc:
         'I built Ignite Page for the website and many different sections using React.js and other frameworks',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://technocracy.nitrr.ac.in/',
       texture: '/textures/project/Technocracy.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -170,6 +96,83 @@ export const navLinks = [
         },
       ],
     },
+    {
+      title: 'Avahan Website',
+      desc: 'Avahan is a website of Rajbhasha Committee Website , I am a Technical executive at Rajbhasha Committee',
+      subdesc:
+        'I built Team Page , Developers information section and about page with React.js and Tailwind CSS',
+      href: 'https://avahan2024.vercel.app/',
+      texture: '/textures/project/Rajbhasha.mp4',
+      logo: '/assets/project-logo2.png',
+      logoStyle: {
+        backgroundColor: '#13202F',
+        border: '0.2px solid #17293E',
+        boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+
+    {
+      title: '3-D Globe',
+      desc: 'This was my first project in which  I implemented three.js library and rendered a beautiful globe in between stars ',
+      subdesc:
+        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+      href: 'https://lnkd.in/dAE5ck35',
+      texture: '/textures/project/globe.mp4',
+      logo: '/assets/project-logo1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    
+    
     // {
     //   title: 'Horizon - Online Banking Platform',
     //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',

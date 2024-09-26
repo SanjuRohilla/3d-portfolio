@@ -200,7 +200,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="Your name"
               />
             </label>
 
@@ -213,7 +213,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="example@google.com"
               />
             </label>
 
@@ -226,7 +226,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Share your thoughts or inquiries..."
+                placeholder="Share your thoughts ..."
               />
             </label>
 
