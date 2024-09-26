@@ -4,7 +4,7 @@ import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Clients from './components/Clients'
-//  import Contact from './sections/Contact'
+ import Contact from './sections/Contact'
 const App = () => {
   return (
     <main className='max-w-7xl mx-auto'>
@@ -12,7 +12,7 @@ const App = () => {
         <Hero/>
         <About/>
         <Projects/>
-         {/* <Contact/>   */}
+         <Contact/>  
     </main>
   )
 }
