@@ -52,42 +52,78 @@ const About = () => {
 
   return (
     <section className="c-space my-20" id="about">
-      <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+      <div className="grid xl:grid-cols-3 xl:grid-rows-4 md:grid-cols-2 grid-cols-1 gap-5 h-full">
 
-        {/* Hi, I'm Sanju */}
-        <div className="col-span-1 xl:row-span-3">
+        {/* About Me */}
+        <div className="col-span-1 xl:row-span-2">
           <div className={hoverCardClass}>
             <img src="assets/Sanju1.jpg" alt="Sanju Rohilla profile photo" className="w-full rounded-3xl sm:h-[276px] sm:rounded-lg h-fit object-contain" />
             <div>
-              <p className="grid-headtext">Hi, I'm Sanju</p>
+              <p className="grid-headtext">About Me</p>
               <p className="grid-subtext">
-                Currently pursuing a degree in Biotechnology at NIT Raipur while building expertise in frontend engineering, Agentic AI, and Retrieval-Augmented Generation (RAG). Passionate about creating modern, high-performance web applications and intelligent AI-driven solutions that combine clean design, seamless user experiences, and scalable engineering. Always eager to learn, experiment, and build products that make a meaningful impact.
+                Currently pursuing a degree in Biotechnology at NIT Raipur while actively building modern web applications and AI-powered solutions. My interests span Frontend Engineering, Agentic AI, and Retrieval-Augmented Generation (RAG), where I combine creativity with technology to build scalable, user-centric, and intelligent digital experiences. Passionate about continuous learning, I enjoy transforming ideas into impactful products through clean code, thoughtful design, and problem solving.
               </p>
             </div>
           </div>
         </div>
 
         {/* Tech Stack */}
-        <div className="col-span-1 xl:row-span-3">
-          <div className={hoverCardClass}>
-            <img src="assets/Grid.jpg" alt="Tech stack illustration" className="w-full sm:h-[276px] h-fit object-contain" />
-            <div>
-              <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext space-y-1">
-                <p>Specialized in <span className="text-purple-400 font-medium">JavaScript</span>,</p>
-                <p><span className="text-purple-400 font-medium">React.js</span>,</p>
-                <p><span className="text-purple-400 font-medium">Next.js</span>,</p>
-                <p><span className="text-purple-400 font-medium">Three.js</span>,</p>
-                <p><span className="text-purple-400 font-medium">Tailwind CSS</span>,</p>
-                <p><span className="text-purple-400 font-medium">React Three Fiber</span>,</p>
-                <p><span className="text-purple-400 font-medium">GSAP</span> and modern frontend development.</p>
-              </p>
-            </div>
-          </div>
-        </div>
+<div className="col-span-1 xl:row-span-2">
+  <div className={hoverCardClass}>
+    <img
+      src="assets/Grid.jpg"
+      alt="Tech stack illustration"
+      className="w-full sm:h-[276px] h-fit object-contain"
+    />
+
+    <div>
+      <p className="grid-headtext">Tech Stack</p>
+
+      <div className="grid-subtext space-y-2">
+
+        <p>
+          <span className="font-semibold text-white">Languages:</span>{" "}
+          <span className="text-purple-400 font-medium">
+            JavaScript, C++, Python
+          </span>
+        </p>
+
+        <p>
+          <span className="font-semibold text-white">Frontend:</span>{" "}
+          <span className="text-purple-400 font-medium">
+            React.js, Next.js, Three.js, React Three Fiber,
+            Tailwind CSS, GSAP
+          </span>
+        </p>
+
+        <p>
+          <span className="font-semibold text-white">Backend:</span>{" "}
+          <span className="text-purple-400 font-medium">
+            Node.js, MongoDB
+          </span>
+        </p>
+
+        <p>
+          <span className="font-semibold text-white">AI & Automation:</span>{" "}
+          <span className="text-purple-400 font-medium">
+            Agentic AI, LangGraph, RAG, Prompt Engineering
+          </span>
+        </p>
+
+        <p>
+          <span className="font-semibold text-white">Tools:</span>{" "}
+          <span className="text-purple-400 font-medium">
+            Git, GitHub, Canva
+          </span>
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Globe / Time zone - height reduced + achievements */}
-        <div className="col-span-1 xl:row-span-3">
+        <div className="col-span-1 xl:row-span-2">
           <div className={hoverCardClass}>
             <div className="rounded-3xl w-full sm:h-[200px] h-fit flex justify-center items-center">
               <Globe
@@ -103,8 +139,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">Remote-Ready, Any Time Zone</p>
-              <p className="grid-subtext">Based in India, comfortable collaborating across time zones worldwide.</p>
+              <p className="grid-headtext">Open to Global Opportunities</p>
+              <p className="grid-subtext">Based in India and excited to collaborate with teams across different time zones to build impactful products.</p>
 
               <div className="mt-4 space-y-2">
                 <div className="flex items-center gap-2 text-sm text-white/90 hover:text-purple-300 transition-colors duration-200">
@@ -121,39 +157,96 @@ const About = () => {
         </div>
 
         {/* Passion for Coding - with live LeetCode stats */}
-        <div className="xl:col-span-2 xl:row-span-2">
-          <div className={hoverCardClass}>
-            <img src="assets/grid3.png" alt="Coding passion illustration" className="w-full sm:h-[266px] h-fit object-contain" />
-            <div>
-              <p className="grid-headtext">My Passion for Coding</p>
-              <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession&mdash;it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
-              </p>
+<div className="xl:col-span-2 xl:row-span-2">
+  <div className={hoverCardClass}>
+    <img
+      src="assets/grid3.png"
+      alt="Coding passion illustration"
+      className="w-full sm:h-[266px] h-fit object-contain"
+    />
 
-              <div className="flex flex-wrap gap-3 mt-4">
-                <a
-                  href="https://leetcode.com/u/Sanju2005/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
-                >
-                  <SiLeetcode className="text-yellow-400" />
-                  <span className="text-purple-400 font-bold">{leetStats.totalSolved}+</span> Solved
-                </a>
-                <a
-                  href="https://leetcode.com/u/Sanju2005/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
-                >
-                  <SiLeetcode className="text-yellow-400" />
-                  Rank: <span className="text-purple-400 font-bold">{leetStats.ranking}</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div>
+      <p className="grid-headtext">Problem Solving Journey</p>
+
+      <p className="grid-subtext">
+        Consistently strengthening my problem-solving skills through
+        <span className="text-purple-400 font-medium">
+          {" "}Data Structures & Algorithms
+        </span>
+        , with
+        <span className="text-purple-400 font-medium">
+          {" "}877+ solved problems
+        </span>
+        ,
+        <span className="text-purple-400 font-medium">
+          {" "}1500+ submissions
+        </span>
+        {" "}over the past year, and participation in
+        <span className="text-purple-400 font-medium">
+          {" "}20+ coding contests
+        </span>
+        . Experienced in solving problems involving Arrays, Strings,
+        Linked Lists, Trees, Graphs, Dynamic Programming, Greedy,
+        Sliding Window, Binary Search, Heaps, Recursion,
+        Backtracking and advanced C++ STL with a strong focus on
+        writing efficient and optimized solutions.
+      </p>
+
+      <div className="flex flex-wrap gap-3 mt-5">
+
+        {/* Problems Solved */}
+        <a
+          href="https://leetcode.com/u/Sanju2005/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
+        >
+          <SiLeetcode className="text-yellow-400" />
+          <span className="text-purple-400 font-bold">
+            {leetStats.totalSolved}+
+          </span>
+          Problems Solved
+        </a>
+
+        {/* Contest Rating */}
+        <a
+          href="https://leetcode.com/u/Sanju2005/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
+        >
+          🏆
+          Contest Rating
+          <span className="text-purple-400 font-bold">
+            1651
+          </span>
+        </a>
+
+        {/* Contests */}
+        <a
+          href="https://leetcode.com/u/Sanju2005/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
+        >
+          ⚔️
+          20+ Contest Participations
+        </a>
+
+        {/* Profile */}
+        <a
+          href="https://leetcode.com/u/Sanju2005/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:scale-105 transition-all duration-200 text-sm font-medium text-white"
+        >
+          🚀 Explore My LeetCode
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Contact */}
         <div className="xl:col-span-1 xl:row-span-2">
@@ -165,7 +258,7 @@ const About = () => {
             />
 
             <div className="space-y-3">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">Let's Build Something Amazing 🚀</p>
 
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />

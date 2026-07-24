@@ -57,14 +57,97 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+    
+    
     {
+  title: 'NeonKill - Gaming Website',
+
+  desc: 'A visually captivating gaming website featuring cinematic animations, immersive storytelling, and modern interactive user experiences inspired by premium gaming platforms.',
+
+  subdesc:
+    'Built with React.js, GSAP, and Tailwind CSS, the project showcases scroll-triggered animations, geometric clip-path transitions, engaging video storytelling, 3D hover interactions, smooth UI/UX, and a fully responsive design. Developed with a strong emphasis on reusable components, clean code architecture, and high-performance frontend development.',
+
+  href: 'https://neon-killl.vercel.app/',
+
+  texture: '/textures/project/neonkill.mp4',
+
+  logo: '/assets/neonkill_logo.jpg',
+
+  logoStyle: {
+    backgroundColor: '#2A1816',
+    border: '0.2px solid #36201D',
+    boxShadow: '0px 0px 60px 0px #AA3C304D',
+  },
+
+  spotlight: '/assets/spotlight1.png',
+
+  tags: [
+    {
+      id: 1,
+      name: 'React.js',
+      path: '/assets/react.svg',
+    },
+    {
+      id: 2,
+      name: 'Tailwind CSS',
+      path: 'assets/tailwindcss.png',
+    },
+    
+  ],
+},
+
+
+ {
+  title: 'Marine eDNA Analyzer',
+
+  desc: 'An AI-powered marine biodiversity analysis platform that processes genomic eDNA sequences and transforms them into interactive visualizations and research insights.',
+
+  subdesc:
+    'Built with Next.js, Tailwind CSS, Firebase, Docker, and Google Gemini AI, the platform enables FASTA sequence validation, AI-assisted ecological research, interactive 3D data visualization, and responsive dashboards. Designed with a focus on scalable architecture, smooth user experience, and high-performance frontend engineering.',
+
+  href: 'https://ocean-insight-lab.vercel.app',
+
+  texture: '/textures/project/marineEDNA.mp4',
+
+  logo: '/assets/dna.jpg',
+
+  logoStyle: {
+    backgroundColor: '#0B2545',
+    border: '0.2px solid #1D4E89',
+    boxShadow: '0px 0px 60px 0px rgba(29, 78, 137, 0.35)',
+  },
+
+  spotlight: '/assets/spotlight2.png',
+
+  tags: [
+    {
+      id: 1,
+      name: 'Next.js',
+      path: '/assets/nextdotjs.svg',
+    },
+    {
+      id: 2,
+      name: 'Tailwind CSS',
+      path: '/assets/tailwindcss.png',
+    },
+    {
+      id: 3,
+      name: 'Firebase',
+      path: '/assets/firebase.svg',
+    },
+    
+  ],
+},
+
+
+{
       title: 'Technocracy - Website',
       desc: 'The Technocracy website is the offical website for NIT Raipur Technical Commitee , I am a Technical executive at this Committee',
       subdesc:
         'I built Ignite Page for the website and many different sections using React.js and other frameworks',
       href: 'https://technocracy.nitrr.ac.in/',
       texture: '/textures/project/Technocracy.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/techno.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -141,7 +224,7 @@ export const navLinks = [
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://lnkd.in/dAE5ck35',
       texture: '/textures/project/globe.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/globe_logo.jpg',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -151,32 +234,17 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Three.js',
+          path: '/assets/threedotjs.svg',
         },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+       
       ],
     },
     
-    
-    // {
-    //   title: 'Horizon - Online Banking Platform',
-    //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    //   subdesc:
+
+
+
+    //  subdesc:
     //     'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
     //   href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
     //   texture: '/textures/project/project4.mp4',
@@ -210,6 +278,8 @@ export const navLinks = [
     //     },
     //   ],
     // },
+
+
     // {
     //   title: 'Imaginify - AI Photo Manipulation App',
     //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
@@ -245,7 +315,10 @@ export const navLinks = [
     //       name: 'Framer Motion',
     //       path: '/assets/framer.png',
     //     },
-    //   ],
+    //   ]// {
+    //   title: 'Horizon - Online Banking Platform',
+    //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    //  ,
     // },
   ];
   

@@ -3,8 +3,7 @@ import { Float, useGLTF } from '@react-three/drei';
 
 const ReactLogo = (props) => {
    const { nodes, materials } = useGLTF('models/react.glb');
-  // const { nodes, materials } = useGLTF('models/beautiful_sphere.glb');
-  //const {scene} = useGLTF('vite-react/src/components/scene.gltf')
+  
 
   return (
     <Float floatIntensity={1}>
