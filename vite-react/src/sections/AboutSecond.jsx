@@ -47,17 +47,14 @@ const About = () => {
     }, 2000);
   };
 
-  const hoverCardClass =
-    'grid-container transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_25px_rgba(168,85,247,0.15)] hover:border-purple-500/30';
-
   return (
     <section className="c-space my-20" id="about">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
 
         {/* Hi, I'm Sanju */}
         <div className="col-span-1 xl:row-span-3">
-          <div className={hoverCardClass}>
-            <img src="assets/Sanju1.jpg" alt="Sanju Rohilla profile photo" className="w-full rounded-3xl sm:h-[276px] sm:rounded-lg h-fit object-contain" />
+          <div className="grid-container">
+            <img src="assets/Sanju1.jpg" alt="grid-1" className="w-full rounded-3xl sm:h-[276px] sm:rounded-lg h-fit object-contain" />
             <div>
               <p className="grid-headtext">Hi, I'm Sanju</p>
               <p className="grid-subtext">
@@ -69,26 +66,26 @@ const About = () => {
 
         {/* Tech Stack */}
         <div className="col-span-1 xl:row-span-3">
-          <div className={hoverCardClass}>
-            <img src="assets/Grid.jpg" alt="Tech stack illustration" className="w-full sm:h-[276px] h-fit object-contain" />
+          <div className="grid-container">
+            <img src="assets/Grid.jpg" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
             <div>
               <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext space-y-1">
-                <p>Specialized in <span className="text-purple-400 font-medium">JavaScript</span>,</p>
-                <p><span className="text-purple-400 font-medium">React.js</span>,</p>
-                <p><span className="text-purple-400 font-medium">Next.js</span>,</p>
-                <p><span className="text-purple-400 font-medium">Three.js</span>,</p>
-                <p><span className="text-purple-400 font-medium">Tailwind CSS</span>,</p>
-                <p><span className="text-purple-400 font-medium">React Three Fiber</span>,</p>
-                <p><span className="text-purple-400 font-medium">GSAP</span> and modern frontend development.</p>
+              <p className="grid-subtext">
+                <p>Specialized in JavaScript,</p>
+                <p>React.js,</p>
+                <p>Next.js,</p>
+                <p>Three.js,</p>
+                <p>Tailwind CSS,</p>
+                <p>React Three Fiber,</p>
+                <p>GSAP and modern frontend development.</p>
               </p>
             </div>
           </div>
         </div>
 
-        {/* Globe / Time zone - height reduced + achievements */}
+        {/* Globe / Time zone - height reduced */}
         <div className="col-span-1 xl:row-span-3">
-          <div className={hoverCardClass}>
+          <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[200px] h-fit flex justify-center items-center">
               <Globe
                 height={200}
@@ -105,30 +102,18 @@ const About = () => {
             <div>
               <p className="grid-headtext">Remote-Ready, Any Time Zone</p>
               <p className="grid-subtext">Based in India, comfortable collaborating across time zones worldwide.</p>
-
-              <div className="mt-4 space-y-2">
-                <div className="flex items-center gap-2 text-sm text-white/90 hover:text-purple-300 transition-colors duration-200">
-                  <span className="w-1.5 h-1.5 rounded-full bg-purple-400" />
-                  Smart India Hackathon — <span className="text-purple-400 font-semibold">Finalist</span>
-                </div>
-                <div className="flex items-center gap-2 text-sm text-white/90 hover:text-purple-300 transition-colors duration-200">
-                  <span className="w-1.5 h-1.5 rounded-full bg-purple-400" />
-                  NBC Ideathon — <span className="text-purple-400 font-semibold">Semi-Finalist</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
         {/* Passion for Coding - with live LeetCode stats */}
-        <div className="xl:col-span-2 xl:row-span-2">
-          <div className={hoverCardClass}>
-            <img src="assets/grid3.png" alt="Coding passion illustration" className="w-full sm:h-[266px] h-fit object-contain" />
+        <div className="xl:col-span-2 xl:row-span-3">
+          <div className="grid-container">
+            <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession&mdash;it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+               Dedicated to continuous improvement in Data Structures & Algorithms, achieving 877+ solved problems, 1500+ submissions in the past year, and participating in 20+ coding contests. Skilled in solving problems involving Arrays, Strings, Linked Lists, Trees, Graphs, Dynamic Programming, Greedy, Sliding Window, Binary Search, Heaps, Recursion, Backtracking, and C++ STL, with a focus on writing efficient and optimized solutions.
               </p>
 
               <div className="flex flex-wrap gap-3 mt-4">
@@ -136,19 +121,19 @@ const About = () => {
                   href="https://leetcode.com/u/Sanju2005/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition text-sm text-white"
                 >
                   <SiLeetcode className="text-yellow-400" />
-                  <span className="text-purple-400 font-bold">{leetStats.totalSolved}+</span> Solved
+                  {leetStats.totalSolved}+ Solved
                 </a>
                 <a
                   href="https://leetcode.com/u/Sanju2005/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-purple-500/20 hover:scale-105 transition-all duration-200 text-sm text-white"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition text-sm text-white"
                 >
                   <SiLeetcode className="text-yellow-400" />
-                  Rank: <span className="text-purple-400 font-bold">{leetStats.ranking}</span>
+                  Rank: {leetStats.ranking}
                 </a>
               </div>
             </div>
@@ -157,10 +142,10 @@ const About = () => {
 
         {/* Contact */}
         <div className="xl:col-span-1 xl:row-span-2">
-          <div className={hoverCardClass}>
+          <div className="grid-container">
             <img
               src="assets/grid4.png"
-              alt="Contact section illustration"
+              alt="grid-4"
               className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
             />
 
@@ -174,19 +159,19 @@ const About = () => {
 
               <a
                 href="tel:+917496040775"
-                className="flex items-center gap-2 justify-center text-white text-sm hover:text-purple-300 transition-colors duration-200"
+                className="flex items-center gap-2 justify-center text-white text-sm hover:opacity-70"
               >
                 <FaPhoneAlt /> +91 74960 40775
               </a>
 
               <div className="flex justify-center gap-5 mt-2 text-xl">
-                <a href="https://www.linkedin.com/in/sanju-rohilla-4450452a5/" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile" className="text-white hover:text-blue-400 hover:scale-110 transition-all duration-200">
+                <a href="https://www.linkedin.com/in/sanju-rohilla-4450452a5/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition">
                   <FaLinkedin />
                 </a>
-                <a href="https://github.com/SanjuRohilla" target="_blank" rel="noopener noreferrer" title="GitHub Profile" className="text-white hover:text-gray-400 hover:scale-110 transition-all duration-200">
+                <a href="https://github.com/SanjuRohilla" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 transition">
                   <FaGithub />
                 </a>
-                <a href="https://www.instagram.com/sanjurohilla27/?hl=en" target="_blank" rel="noopener noreferrer" title="Instagram Profile" className="text-white hover:text-pink-400 hover:scale-110 transition-all duration-200">
+                <a href="https://www.instagram.com/sanjurohilla27/?hl=en" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400 transition">
                   <FaInstagram />
                 </a>
               </div>
