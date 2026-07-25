@@ -36,7 +36,7 @@ export default function getStarfield({ numStars = 8000 } = {}) {
     size: 1.6,
     vertexColors: true,
     map: new THREE.TextureLoader().load(
-      "./public/textures/circle.png"
+      "/textures/circle.png"
       // "vite-react/public/assets/Sanju.jpg"
     ),
   });
