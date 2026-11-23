@@ -99,7 +99,7 @@ const About = () => {
         <p>
           <span className="font-semibold text-white">Backend:</span>{" "}
           <span className="text-purple-400 font-medium">
-            Node.js, MongoDB
+            Node.js, MongoDB, FastAPI
           </span>
         </p>
 
