@@ -151,6 +151,14 @@ const About = () => {
                   <span className="w-1.5 h-1.5 rounded-full bg-purple-400" />
                   NBC Ideathon — <span className="text-purple-400 font-semibold">Semi-Finalist</span>
                 </div>
+                <div className="flex items-center gap-2 text-sm text-white/90 hover:text-purple-300 transition-colors duration-200">
+                  <span className="w-1.5 h-1.5 rounded-full bg-purple-400" />
+                  INTER_NIT — <span className="text-purple-400 font-semibold">Athelete</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-white/90 hover:text-purple-300 transition-colors duration-200">
+                  <span className="w-1.5 h-1.5 rounded-full bg-purple-400" />
+                  Leamon Spoon Race — <span className="text-purple-400 font-semibold">AIR 4</span>
+                </div>
               </div>
             </div>
           </div>
