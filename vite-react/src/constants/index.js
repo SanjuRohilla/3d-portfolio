@@ -95,7 +95,46 @@ export const navLinks = [
     
   ],
 },
+{
+  title: 'Signalist - AI-Powered Financial Intelligence Platform',
 
+  desc: 'An AI-powered stock market intelligence platform designed to simplify financial research through real-time market insights, stock tracking, and data-driven investment analysis.',
+
+  subdesc:
+    'Built with Next.js, TypeScript, and modern UI technologies, Signalist integrates real-time financial data, interactive stock dashboards, market trend visualization, and AI-powered insights to help users make informed investment decisions. The platform focuses on responsive design, intuitive navigation, efficient data handling, and a seamless user experience.',
+
+  href: 'https://signalist20-rdjuog6jq-sanjus-projects-951a3a1e.vercel.app/',
+
+  texture: '/textures/project/signalist.mp4',
+
+  logo: '/assets/signalist_logo.png',
+
+  logoStyle: {
+    backgroundColor: '#101827',
+    border: '0.2px solid #26364A',
+    boxShadow: '0px 0px 60px 0px #3B82F64D',
+  },
+
+  spotlight: '/assets/spotlight1.png',
+
+  tags: [
+    {
+      id: 1,
+      name: 'Next.js',
+      path: '/assets/nextjs.png',
+    },
+    {
+      id: 2,
+      name: 'TypeScript',
+      path: '/assets/typescript.png',
+    },
+    {
+      id: 3,
+      name: 'Tailwind CSS',
+      path: '/assets/tailwindcss.png',
+    },
+  ],
+},
 
  {
   title: 'Marine eDNA Analyzer',
