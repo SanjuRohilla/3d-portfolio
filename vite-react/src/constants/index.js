@@ -107,7 +107,7 @@ export const navLinks = [
 
   texture: '/textures/project/signalist.mp4',
 
-  logo: '/assets/signalist_logo.png',
+  logo: '/assets/signalist_logo.svg',
 
   logoStyle: {
     backgroundColor: '#101827',
